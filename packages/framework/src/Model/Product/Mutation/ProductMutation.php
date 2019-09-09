@@ -83,7 +83,7 @@ class ProductMutation implements MutationInterface, AliasedInterface
     public static function getAliases(): array
     {
         return [
-            'resolve' => 'CarMutation',
+            'resolve' => 'ProductMutation',
         ];
     }
 }
